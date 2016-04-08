@@ -5,7 +5,7 @@
   "main": "cache.js",
   "scripts": {
     "test": "echo \"Type mocha test",
-    "build": "rimraf dist/* && gulp build"
+    "build": "rimraf dist && gulp build"
   },
   "author": "",
   "license": "ISC",
