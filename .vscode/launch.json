@@ -29,8 +29,7 @@
 			"address": "localhost",
 			"restart": false,
 			"sourceMaps": true,
-			"outDir": "${workspaceRoot}/dist",
-			"localRoot": "${workspaceRoot}",
+			"outDir":  "${workspaceRoot}/dist",
 			"remoteRoot": null
 		}
 	]
