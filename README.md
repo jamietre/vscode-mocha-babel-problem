@@ -8,11 +8,9 @@ VS Code can't debug tests run through Mocha properly, this repo was created to r
     npm run build
 
 
-#### Problem # 1
-
 Launching VS Code using "Launch" breaks initially in the `dist` code
 
-### To Demonstrate Debugging Issues with external sourcemaps 
+### Minor Problems Debugging Issues with node +external sourcemaps 
 
     node --debug-brk dist/index.js
 
@@ -32,7 +30,7 @@ When control flow enters the "cache.js" module it correctly shows the source cod
 
 Generally debugging works this way, though: with the exception of occasionally showing the compiled code, the code position is correct. 
 
-### To Demonstrate Broken Debugging in Mocha
+### Significant Problems Debugging in Mocha
 
 Debug inline source maps generated JIT by Mocha. Babel options 
 
